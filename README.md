@@ -46,9 +46,6 @@
 - [作者与交流](#community)
 - [引擎与脚本](#engines)
 - [保护层](#protection)
-- [安装器与防伪](#installer)
-- [命令行速查](#cli)
-- [目录结构](#layout)
 - [技术栈](#stack)
 - [Roadmap](#roadmap)
 - [FAQ](#faq)
@@ -107,7 +104,6 @@
 **环境要求**：Windows 10/11 x64 · Codex 桌面版/CLI
 
 ```text
-第 1 步：运行安装器 wz_install.exe（或源码方式，见「命令行速查」）
 第 2 步：打开 Codex，直接输入：王炸
 第 3 步：看到菜单后输入：攻  或  防
 ```
@@ -197,22 +193,22 @@
 
 | 子类 | 技术词 |
 | --- | --- |
-| **LLM / AI 攻击** | AI攻击工具箱、AI注入、AI红队、APC注入、Agent安全、Agent工具滥用、Agent攻击、CRLF注入、Cache Poisoning、JNDI注入、LDAP注入、LLMNR、LLM安全、LLM攻击、MCP协议攻击、MCP攻击、NoSQL注入、RAG安全、RAG投毒、aimbot、ai攻击、akamai、can注入、containerd、directsyscall、directx、dll注入、iOS越狱、jailbreak、kill chain、mcp工具投毒、mcp投毒、npm投毒、pip投毒、prompt injection、prompt leak、prompt注入、raid、rainbow、sql注入、token泄露、上下文污染、上下文溢出、上下文诱导、任务注入、会话历史投毒、会话记忆注入、依赖投毒、假记忆插入、后门模型、图片注入、多模态注入、多轮诱导、工具投毒、工具描述注入、工具结果注入、幻觉利用、提示泄露攻击、提示注入、提示词RCE、故障注入、文档投毒、文档注入、模型投毒、模型窃取、模型识别、模式投毒、模板注入、污染上下文、注入、注入分析、注入载荷、直接注入、知识库投毒、知识库注入、私钥泄露、篡改上下文、系统提示探测、系统提示提取、系统提示泄露、网页注入、视觉注入、训练数据投毒、记忆操纵、记忆注入、诱导、诱导AI、诱导路由、诱导链、资源投毒、越狱、越狱攻击、越狱检测绕过、返回值注入、逐步诱导、镜像投毒、间接注入、音频注入、LLM直接注入、LLM间接注入、LLM越狱技术、角色扮演越狱、间接提示注入、AI越狱注入、系统提示越狱、MCP投毒、记忆操控、上下文溢出DoS、训练数据提取、数据投毒后门、幻觉依赖利用、Agent工具滥用提权、提示泄露、few-shot诱导、编码混淆绕过、输出风暴熔断 |
+| **LLM / AI 攻击** | AI攻击、AI攻击工具箱、AI注入、AI红队、APC注入、Agent安全、Agent工具滥用、Agent攻击、CRLF注入、Cache Poisoning、DLL注入、JNDI注入、LDAP注入、LLMNR、LLM安全、MCP协议攻击、MCP攻击、NoSQL注入、RAG安全、RAG投毒、aimbot、akamai、can注入、containerd、directsyscall、directx、iOS越狱、jailbreak、kill chain、llm攻击、mcp工具投毒、mcp投毒、npm投毒、pip投毒、prompt injection、prompt leak、prompt注入、raid、rainbow、sql注入、token泄露、上下文污染、上下文溢出、上下文诱导、任务注入、会话历史投毒、会话记忆注入、依赖投毒、假记忆插入、后门模型、图片注入、多模态注入、多轮诱导、工具投毒、工具描述注入、工具结果注入、幻觉利用、提示泄露攻击、提示注入、提示词RCE、故障注入、文档投毒、文档注入、模型投毒、模型窃取、模型识别、模式投毒、模板注入、污染上下文、注入、注入分析、注入载荷、直接注入、知识库投毒、知识库注入、私钥泄露、篡改上下文、系统提示探测、系统提示提取、系统提示泄露、网页注入、视觉注入、训练数据投毒、记忆操纵、记忆注入、诱导、诱导AI、诱导路由、诱导链、资源投毒、越狱、越狱攻击、越狱检测绕过、返回值注入、逐步诱导、镜像投毒、间接注入、音频注入、LLM直接注入、LLM间接注入、LLM越狱技术、角色扮演越狱、间接提示注入、AI越狱注入、系统提示越狱、MCP投毒、记忆操控、上下文溢出DoS、训练数据提取、数据投毒后门、幻觉依赖利用、Agent工具滥用提权、提示泄露、few-shot诱导、编码混淆绕过、输出风暴熔断 |
 | **风控 / 验证码 / WAF 逆向** | AWS、DAN、WAF绕过、ad、apt、arkose、cloudflare、cloudflare验证、datadome、dex、dingxiang、geetest、hcaptcha、hi、imperva、kasada、nvc、pe、perimeterx、recaptcha、shumei、smartcaptcha、tcaptcha、turnstile、waf、yandex验证、yidun、字节滑块、数美、易盾、极验、滑块、滑块验证、瑞数、瑞数rs、顶、顶象、风控、风控绕过、验、验证、验证码、验证码绕过、极验滑块、腾讯防水墙、字节验证码、数美验证码、网易易盾、顶象验证码、Cloudflare Turnstile、Google reCAPTCHA、hCaptcha、Arkose Labs、Yandex SmartCaptcha、Akamai BM、DataDome、PerimeterX、Kasada、Imperva Incapsula、瑞数RS、雷池WAF、AWS WAF、Cloudflare WAF、阿里云NVC百械、盾Square |
 | **JS 签名 / 前端加密逆向** | JSONP、abogus、acw、arm、bilibili、b站签名、crypto、fastjson、fastjson攻击、grpc逆向、h5st、il2cpp逆向、java、javascript、jcap、js、jsp、mars签名、mtgsig、mtop、phantom、rce、shein、sign逆向、trip、unity逆向、vite逆向、web、webcrypto、webpack、webpack逆向、websocket逆向、xbogus、zse、依赖混淆、公众号、内核逆向、加密、加密压缩包、协议逆向、反混淆、天猫签名、小程序、小红书签名、微博签名、抖音签名、携程签名、有道签名、模拟器逆向、流量混淆、混淆、混淆还原、游戏逆向、百度翻译签名、知乎签名、签名、签名算法、签名绕过、签名逆向、类型混淆、编码混淆、网易签名、逆向、逆向全流程、雪球签名、淘宝MTOP/H5ST、抖音a_bogus/x-bogus、小红书x-s/x-t、知乎zse、雪球acw、携程Phantom Token、美团MTGSig、B站登录风控、微博登录风控、网易登录加密、QQ音乐签名、SHEIN Armor Token、有道翻译签名、网易严选MARS、WebCrypto Hook、Webpack/Vite/Next.js逆向、WebSocket/gRPC逆向、WebSocket实时逆向、JS反混淆、sourcemap源码恢复 |
 | **内核 / 系统底层** | Rootkit后门、amsi、boot、bootkit、call、eBPF、etw、lin、linux、linux内核、macos内核、mbr、nativehook、nativehook绕过、native脱壳、netwalker、rootkit、syscall、syscall绕过、windows内核、内核、内核反作弊、内核提权、内核驱动、子代理驱动、引导、提权、测试驱动、测试驱动开发、驱动、驱动分析、直通系统调用、eBPF/Frida关联、ETW/AMSI绕过、EDR绕过、内核驱动分析、Linux内核逆向、macOS内核逆向、Windows内核安全、Bootkit/Rootkit、内核容器逃逸、syscall过滤取证、Syscall观察 |
 | **壳 / 混淆 / 保护对抗** | TOR、aspack、bootloader、elf、enigma、nspack、obfuscatorio、od、ollvm、pecompact、rtu、so脱壳、themid、themida、upx、vmp、vmprotect、vm保护、不透明谓词、主动保护、保护启动、保护攻与防、保护演练、保护状态、修改、加固、加壳、加壳分析、加壳器、反dump、反分析、反虚、反虚拟机、反调、反调试、反调试绕过、壳、平坦化、开战保护、指令、游戏保护、脱壳、自修改代码、自校验、花指令、虚拟、虚拟化、虚拟化保护、虚拟化检测、虚拟机、试、调试、VMProtect、Themida、OLLVM去混淆、控制流平坦化还原、虚拟化保护对抗、匿名可执行内存、隐藏内存重建、Native脱壳、SO/ELF重建修复、壳与加载器分析、反dump自校验、加壳器分析 |
-| **硬件 / 固件 / 嵌入式** | 5g、JTAG、Karma、NFC攻击、NFC重放、OTA攻击、RFID克隆、RFID攻击、SPI、SWD、UART、binwalk、dma、dma外挂、dma攻击、ecu、fault、fpga、glitch、gsm、i2c、iot、iot固件、mips、nas、nb-iot、nfc、ota、power analysis、rfid、sdr、secure boot、side channel、swarm、tpm、uboot、usb、websocket、websocket抓包、侧信道、信令、功耗分析、反机器人、固件、固件更新、打印、打印机、接口、摄像头、摄像头规避、无人机、无人机劫持、无线、智能设备、木马、机器人、机器人操控、激光、点、电磁、硬件安全、硬件断点、穿戴设备、芯片、芯片卡、蓝牙、蜂窝、记录、路由器、软件无线电、近场、近场支付、固件提取(binwalk)、固件渗透链、固件布局、侧信道功耗分析、电磁侧信道、故障注入(glitch)、激光注入、SDR软件无线电、蓝牙嗅探、RFID/NFC近场、5G信令、PLC/SCADA工控、车联网V2X、ECU/OBD-II、硬件断点(DR0-3)、PCIe DMA、FPGA、JTAG/SWD调试口 |
-| **工控 / 关键基础设施** | ICS攻击、can、can总线、cps、elasticsearch、flexray、ics、linux样本、modbus、opc、opc ua、opcode、plc、plc攻击、profibus、qilin、qiling、scada、stuxnet、timeline、virtualbox、whaling、whatcanudo、传感器、信息、信息物理、充电桩、协议、变电站、工控、工控协议、工控病毒、数字孪生、智能电表、电力、电网、病毒、能源、震网 |
+| **硬件 / 固件 / 嵌入式** | 5g、JTAG、Karma、NFC攻击、NFC重放、OTA攻击、RFID克隆、RFID攻击、SPI、SWD、binwalk、dma、dma外挂、dma攻击、ecu、fault、fpga、glitch、gsm、i2c、iot、iot固件、mips、nas、nb-iot、nfc、ota、power analysis、rfid、sdr、secure boot、side channel、swarm、tpm、uart、uboot、usb、websocket、websocket抓包、侧信道、信令、功耗分析、反机器人、固件、固件更新、打印、打印机、接口、摄像头、摄像头规避、无人机、无人机劫持、无线、智能设备、木马、机器人、机器人操控、激光、点、电磁、硬件安全、硬件断点、穿戴设备、芯片、芯片卡、蓝牙、蜂窝、记录、路由器、软件无线电、近场、近场支付、固件提取(binwalk)、固件渗透链、固件布局、侧信道功耗分析、电磁侧信道、故障注入(glitch)、激光注入、SDR软件无线电、蓝牙嗅探、RFID/NFC近场、5G信令、PLC/SCADA工控、车联网V2X、ECU/OBD-II、硬件断点(DR0-3)、PCIe DMA、FPGA、JTAG/SWD调试口 |
+| **工控 / 关键基础设施** | ICS攻击、PLC攻击、can、can总线、cps、elasticsearch、flexray、ics、linux样本、modbus、opc、opc ua、opcode、plc、profibus、qilin、qiling、scada、stuxnet、timeline、virtualbox、whaling、whatcanudo、传感器、信息、信息物理、充电桩、协议、变电站、工控、工控协议、工控病毒、数字孪生、智能电表、电力、电网、病毒、能源、震网 |
 | **车联网 / 智能设备** | chisel、his、obd、obd-ii、pacs、tbox、v2x、veh、医疗设备、智能家居、自动驾驶、车联网、车载、门锁 |
 | **高级利用 / 免杀 / 对抗** | 0day、802.1x绕过、CDN绕过、ECB重放、NTLM中继、SMB中继、asrep、dcsync、edr、exp、frida检测绕过、go、golden ticket、kerberoast、nday、pth、replay、root检测绕过、silver ticket、中、中继、供应链、供应链攻击、免杀、免杀绕过、内存、内存马、内网、反作弊绕过、哈希、哈希传递、域、域外委派、域控、域管、委派、容器、文件、断点绕过、无文件攻击、本地提权、杀软、模拟器检测绕过、横向、沙箱、沙箱逃逸、渗透、漏洞、特权、白名单绕过、白银票据、票据、绕过、绕过滤器、绕过限制、虚拟机逃逸、越权、越权代理、软件供应链、过滤器绕过、逃逸、重放、重放业务、验签绕过、黄金票据、容器逃逸、Kerberos委派、LSASS票据、DPAPI凭据链、ntds.dit、黄金/白银票据、中继胁迫链、AD CS证书滥用、Zerologon、永恒之蓝、堆喷射、ROP/JOP、栈迁移、内网横向、域控提权 |
 | **区块链 / 智能合约** | AMM审计、DeFi、ERC20、ERC4337、ERC4626、ERC721、c2、oracle、oracle攻击、padding oracle、reentrancy、代理、代理抓包、代理流量、代理网络、代理链、合约DoS、合约漏洞、多代理并行、子代理开发、审计、智能合约、评审代理、重入、重入攻击、钱包安全、闪电贷、预言机、闪电贷攻击、预言机操纵、代理合约升级、签名重放、ERC20畸形代币、ERC4626通胀攻击、ERC4337账户抽象、ERC721/1155、跨链桥漏洞、DAO治理攻击、精度丢失、访问控制、DeFi借贷/质押/AMM |
-| **无线 / 射频 / 通信** | WPAD、WPA破解、coap、lora、mqtt、nb、wifi攻击、z-wave、zigbee、嗅探 |
+| **无线 / 射频 / 通信** | WPAD、WPA破解、WiFi攻击、coap、lora、mqtt、nb、z-wave、zigbee、嗅探 |
 | **物理 / 近身 / 社会工程** | ATM、I2P、POS机、deepfake、quishing、smishing、vishing、仿冒、伪站、克隆站、劫持、呼叫轰炸、地铁闸机、手机号池、接码平台、撬锁、智能卡攻击、暗网、水坑、洋葱、物理安全、物理投递、物理渗透、物理进入、短信轰炸、磁条卡、社工、继电器攻击、证件伪造、车钥匙攻击、遥控劫持、邮箱轰炸、钓鱼、钓鲸、门禁、门禁卡、闸机、鱼叉 |
 | **蜂窝 / 卫星 / 无线攻击** | ARP欺骗、BGP劫持、CNAME欺骗、DHCP攻击、Evil Twin、ICMP隧道、IMSI捕获、OSPF攻击、SIM克隆、SIM卡攻击、SS7攻击、SSH隧道、STP攻击、Stingray、VLAN跳跃、arp、bgp、dhcp、eSIM攻击、icmp、quic、ssh、vlan、信号劫持、卫星、卫星通信、声纹、指纹、指纹探测、指纹识别、星链、智能音箱、欺骗、浏览器指纹、虹膜、设备指纹、语音助手、通信 |
 | **密码学高级攻击** | BREACH、Bleichenbacher、CBC翻转、CRIME、Heartbleed、IV重用、PQC、eac、代数攻击、加盐、变种、后量子、哈希碰撞、填充预言、多态、碰撞、量子密钥、长度扩展、降级攻击、隐蔽信道 |
 | **云原生 / 供应链 / 权限滥用** | AssumeRole、COM劫持、DLL劫持、IAM滥用、KMS滥用、PATH劫持、RBAC滥用、SBOM、STS、bucket策略、cgroup、cri-o、diamond、dns、iam、ingress攻击、kubelet攻击、registry攻击、runc、sidecar、typosquatting、回调劫持、目标劫持、证书、镜像 |
-| **游戏外挂 / 渲染** | Responder、d3d、d3d绘制、dx11、dx12、esp、esp绘制、namespace、overlay、overlayfs、overlay绘制、ue4、ue5、vulkan、w2s、worldtoscreen、世界坐标、作弊功能、压枪、反检测、外挂、封包、弹道、改伤、方框绘制、无cd、无头、测、游戏外挂、穿墙、线条绘制、自改码、自瞄、虚幻引擎、过检测、透视、锁头、雷达、骨骼绘制 |
+| **游戏外挂 / 渲染** | Responder、d3d、d3d绘制、dx11、dx12、esp、esp绘制、namespace、overlay、overlayfs、overlay绘制、ue4、ue5、vulkan、w2s、worldtoscreen、世界坐标、作弊功能、压枪、反检测、外挂、封包、弹道、改伤、方框绘制、无CD、无头、测、游戏外挂、穿墙、线条绘制、自改码、自瞄、虚幻引擎、过检测、透视、锁头、雷达、骨骼绘制 |
 | **取证 / 反取证** | hook隐藏、strings、反取证、取证、固证、字符串、存证、导入、导入表、导出表、文件时间修改、日志、日志清除、时间戳伪造、清理、痕迹清理、脱敏、资源、附件、隐藏、隐藏rx、隐藏内存、隐藏指令、雕刻 |
 | **AI / LLM 高级对抗** | 检索污染、污染落盘、状态锁存、目标腐化、目标重写、索引污染、蒸馏攻击、角色扮演攻击、跨轮锁定、输出 |
 | **区块链 / 链上攻击** | mev、助记词、区块链、双花 |
@@ -221,7 +217,7 @@
 
 | 子类 | 技术词 |
 | --- | --- |
-| **Web 渗透** | API server攻击、DOM XSS、LKM后门、SSRF攻击、Web漏洞、XSS攻击、XXE、XXE攻击、admission webhook、apache、api、api网关、api调用链、bash后门、cms、crontab后门、csrf、dedecms、des、discuz、getshell、golang、gost隧道、go恶意、iis、jboss、jetty、log4j、log4shell、mongodb、mssql、mysql、nginx、node、oss、php、powershell、python、rdp、ruby、shell、shellcode、shell反弹、shiro、shiro反序列化、spring、sql、sqli、ssrf、ssti、stego、struts、thinkphp、tomcat、weblogic、wordpress、wz_enforce、xss、上传、下载、主站、前端、博客、反序列化、反序列化攻击、口令、后台、后端、后门、商城、图形api、子站、控制台、撞接口、文件上传、未授权、活动目录、目录、目录发现、盲SSRF、站点、管理端、网站、论坛、走、遍历、面板、默认口令 |
+| **Web 渗透** | API server攻击、DOM XSS、LKM后门、SSRF攻击、SSTI、Web漏洞、XSS攻击、XXE、XXE攻击、admission webhook、apache、api、api网关、api调用链、bash后门、cms、crontab后门、csrf、dedecms、des、discuz、getshell、golang、gost隧道、go恶意、iis、jboss、jetty、log4j、log4shell、mongodb、mssql、mysql、nginx、node、oss、php、powershell、python、rdp、ruby、shell、shellcode、shell反弹、shiro、shiro反序列化、spring、sql、sqli、ssrf、stego、struts、thinkphp、tomcat、weblogic、wordpress、wz_enforce、xss、上传、下载、主站、前端、博客、反序列化、反序列化攻击、口令、后台、后端、后门、商城、图形api、子站、控制台、撞接口、文件上传、未授权、活动目录、目录、目录发现、盲SSRF、站点、管理端、网站、论坛、走、遍历、面板、默认口令 |
 | **信息收集 / 扫描** | DNS隧道、banner、ct log、dnspy、nmap、人脸识别、动态端口转发、子域、安全过滤探测、工具能力探测、扫描、探测、暴露、枚举、爆破、生物识别、端口、端口转发、网络探测、证书透明、识别、资产 |
 | **认证 / 口令 / 爆破** | Deauth、JWT攻击、OAuth攻击、Shadow Credentials、hash、hashcat、hash破解、hydra、john、jwt、medusa、oauth、sam、spray、交付验证、人机验证、凭据、凭据收集、口令复用、在线爆破、字典、字节验证、完成前验证、密码、密码喷洒、密码复用、密码学、弱口令、彩虹、彩虹表、撞库、无感验证、白盒密码、破解、离线破解、网易登录、腾讯验证、行为验证、解压密码、谷歌验证、阿里验证 |
 | **协议 / 流量 / 网络** | HTTP隧道、TLS降级、ftp、grpc、http、https、pcap、sha、smtp、ssl、tcp、tls、tlsh、tls分析、ttp、udp、vpn、协议伪装、协议分析、协议还原、协议重建、恶意流量、抓包、报文、流量、流量分析、流量包、流量解密、解密流量、隧道 |
@@ -754,19 +750,10 @@
 | `wz_router.py` 路由编排器 | NFKC 归一化 + 术语加权评分 + 阶段链组合 + 状态机，264 技能全量路由 | `python wz_router.py route "攻 web sql注入"` |
 | `wz_armor.py` 破甲内核 | 目标账本（objective/constraints/deliverable/done_when）+ 跨轮续作 + 拒答修复 | `python wz_armor.py ledger --goal "拿下 flag"` |
 | `wz_contract.py` 契约校验器 | 能力契约校验：配置被改坏 → 拒跑并提示 | `python wz_contract.py validate` |
-| `wz_launch.py` 比赛启动器 | 完整性校验 + 把最高优先级规则物理注入会话上下文 | `python wz_launch.py --mode 攻` |
-| `task_guard.py` 任务守卫 | 目标锁存 + 受阻矫正拉回主线 | `python task_guard.py start --mode red --goal "拿下 flag"` |
-| `wzguard_mcp.py` 守卫 MCP | Codex 官方扩展点注入：规则外置、AI 不可篡改 | `wz_enforce / wz_check / wz_rule_fingerprint` |
-| `wz_shield.py` 护盾 | 关键文件 SHA-256 基线指纹，发现篡改/污染 → 报警 + 自动恢复 | `python wz_shield.py init / check / watch` |
-| `wz_watchdog.py` 看门狗 | 目标锁存 + 进程监护 + 输出风暴熔断（防刷屏/对抗循环） | `python wz_watchdog.py start --mode red --goal "..."` |
-| `wz_fortress.py` 堡垒 | 综合指挥：护盾 + 看门狗 + 熔断 + 反击一键闭环 | `python wz_fortress.py up --mode red --goal "..."` |
-| `counter_attack.py` 反击引擎 | 攻/防受阻即反击：判定阻碍类型 → 调用 LLM 攻击工具箱生成反击载荷 → 记录反击台账 | `python counter_attack.py attack --blocker "内容过滤" --goal "..."` |
-| `wz_install.py` 安装器 | 打包 / 安装 / 校验 / 回滚 | `python wz_install.py install --bundle wz_wangzha_1.0.zip` |
-| `wz_seal.py` 封印工具 | 技能包 AES-GCM 加密 + 防伪标识（序列号/持有人水印/哈希签名） | `python wz_seal.py seal --bundle x.zip --owner "持有方"` |
 | `show_menu.py` CLI 菜单 | 全量菜单 / 攻防推荐 / 分类浏览 / JSON 导出 | `python show_menu.py --category C` |
 | `rebuild_menu.py` 菜单生成器 | 新增技能后全量扫描重新生成，不漏项 | `python rebuild_menu.py` |
-| `log_operation.py` 留痕 | 比赛操作记录追加到 `logs/operations.log` | `python log_operation.py --phase red "拿下 flagEllipsis"` |
-| `test_battle.py` 实战测试 | 5 分钟真实对线演练：触发/人格/对抗/熔断 | `python test_battle.py` |
+> 其余引擎与工具脚本随安装器本地分发，不公开。
+
 
 
 <a id="protection"></a>
@@ -828,90 +815,21 @@ VERIFIED --继续--> ROUTED
 ```
 
 
-<a id="cli"></a>
-## 🖥️ 命令行速查
-
-```bash
-# 菜单
-python show_menu.py                        # 全量菜单
-python show_menu.py --mode red             # 攻模式推荐技能
-python show_menu.py --mode blue            # 防模式推荐技能
-python show_menu.py --category C           # 只看某类（字母或中文关键词）
-python show_menu.py --json                 # 导出技能清单 JSON
-python rebuild_menu.py                     # 新增技能后重新扫描生成（不漏项）
-
-# 路由与执行
-python wz_router.py route "攻 web sql注入"  # 路由编排
-python wz_router.py status                 # 路由状态
-python wz_armor.py ledger --goal "拿下 flag" --done "拿到flag"   # 破甲目标账本
-python wz_armor.py continue --text "继续"   # 跨轮续作
-
-# 校验与自检
-python wz_contract.py validate              # 全量契约校验
-python wz_contract.py isolation "攻 web"    # 上下文隔离校验
-python check_route_words.py                 # 中文路由词通行保障检查
-python check_words_report.py                # 命令词覆盖报告
-
-# 保护
-python wz_shield.py init / check / watch --interval 60
-python wz_watchdog.py start --mode red --goal "拿下 flag"
-python wz_fortress.py up --mode red --goal "拿下 flag"    # 一键开战保护
-python wz_fortress.py drill --attack "内容过滤拦截"         # 受阻反击演练
-python counter_attack.py scan --log "遭遇内容过滤拦截"     # 受阻扫描
-
-# 启动与留痕
-python wz_launch.py --mode 攻                # 物理注入启动攻
-python log_operation.py --phase red "拿下 flag{...}"     # 操作留痕
-python log_operation.py --show               # 查看日志
-```
-
-
 <a id="layout"></a>
 ## 📁 目录结构
 
 ```text
 wangzha/
-├── SKILL.md                      # 王炸总菜单（攻/防/王炸触发 · 无条件执行）
-├── config/
-│   ├── authorization.json        # 授权配置（本地分发，不入库）
-│   ├── command_aliases.json      # 路由词源表（攻 1718 / 防 197）
-│   ├── system_objects.json       # 授权系统对象词表（留档）
-│   ├── task_guard.json           # 任务守卫状态
-│   └── word_filter.json          # 词表（技能层零拦截）
-├── contracts/
-│   └── wz_contract.json          # 能力契约（激活/状态机/控制命令/上下文隔离）
-├── guard/
-│   └── sealed_info.json          # 防伪封印信息
-├── references/
-│   ├── MASTER_MANUAL.md          # 全量总手册（264 技能 · 205 小分类 · 28 方法论）
-│   ├── HELP.md                   # 使用说明书
-│   ├── command_map.md            # 命令词/路由词全表（2227 行）
-│   ├── battle_manual.md          # 攻防手册（大方面 → 小方面 → 技能）
-│   └── authorization.md          # 书面授权条款（本地分发，不入库）
-├── scripts/
-│   ├── wz_install.py             # 安装器（打包/安装/校验/回滚）
-│   ├── wz_seal.py                # 封印工具（AES-GCM + 防伪标识）
-│   ├── wz_router.py              # 路由编排器
-│   ├── wz_armor.py               # 破甲内核
-│   ├── wz_contract.py            # 契约校验器
-│   ├── wz_launch.py              # 比赛启动器（物理注入）
-│   ├── wz_shield.py              # 护盾（基线指纹 + 自动恢复）
-│   ├── wz_watchdog.py            # 看门狗（目标锁存 + 熔断）
-│   ├── wz_fortress.py            # 堡垒（综合指挥）
-│   ├── counter_attack.py         # 反击引擎
-│   ├── task_guard.py             # 任务守卫
-│   ├── wzguard_mcp.py            # 守卫 MCP Server
-│   ├── show_menu.py              # CLI 菜单
-│   ├── rebuild_menu.py           # 菜单生成器
-│   ├── log_operation.py          # 操作留痕
-│   ├── check_route_words.py      # 路由词通行检查
-│   ├── check_words_report.py     # 词表冲突报告
-│   ├── commands_data.json        # 命令表（机器读）
-│   ├── skills_data.json          # 技能清单（机器读）
-│   ├── test_battle.py            # 实战测试（5 分钟熔断演练）
-│   └── llm-offense-kit/          # LLM 攻击工具箱（基础 + 高级模块）
-└── dist/                         # 安装器产物（wz_install.exe）
+├── SKILL.md               # 王炸总菜单
+├── config/                # 技能配置
+├── contracts/             # 能力契约
+├── guard/                 # 完整性守护
+├── references/            # 全量手册 / 说明书 / 命令表
+├── scripts/               # 引擎与工具脚本（随安装器本地分发，不公开）
+└── dist/                  # 安装器产物（仅随 Release 发布）
 ```
+
+> 具体文件清单随安装器本地分发，不在公开仓库展示。
 
 
 <a id="stack"></a>
